@@ -3,61 +3,42 @@
   <head>
 <link href="style.css" type="text/css" rel="stylesheet"> 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" type="text/css" rel="stylesheet"> 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="js.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script async src="script.js"></script>
 </head>
+
   <body>
     <form class="p-3">
       <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" placeholder="Joe Smith">
+        <label for="massOne">Mass of Sample 1</label>
+        <input type="text" class="form-control" id="massOne" placeholder="Sample One Mass (grams)">
       </div>
       
       <div class="form-group">
-        <label for="seeAnotherField">Do You Want To See Another Field?</label>
-        <select class="form-control" id="seeAnotherField">
-              <option value="no">No Way.</option>
-              <option value="yes">Absolutely!</option>
+        <label for="mixTypeGroup">Is the Sample Mixture by Weight or Molar Ratio?</label>
+        <select class="form-control" id="mixTypeGroup" placeholder="Please Choose">
+              <option value="WtPt">Weight Percent</option>
+              <option value="Molar">Molar Ratio</option>
         </select>
       </div>
-      
-      <div class="form-group" id="otherFieldDiv">
-        <label for="otherField">Here you go!</label>
-        <select class="form-control" id="otherField">
-          <option>Yay</option>
-          <option>Woo</option>
-          <option>Hazah</option>
-          <option>Yipee</option>
-          <option>Hoorah</option>
-        </select>
+
+      <div class="form-group" id="howManySamples">
+        <label for="howManySamples">How Many Samples?</label>
+        <select class="form-control" id="howManySamples2">
+          <option value="one">1</option>
+          <option value="two">2</option>
+        </select>       
       </div>
-      
-      <div class="form-group">
-        <label for="seeAnotherFieldGroup">Do You Want To See Another Group of Fields?</label>
-        <select class="form-control" id="seeAnotherFieldGroup">
-              <option value="no">Not Particularly.</option>
-              <option value="yes">I Guess!</option>
-        </select>
+
+      <div class="form-group" id="sampleInfo1">
+        <label for="sampleInfo1">How Many Samples?</label>
+        <select class="form-control">
+          <option value="Won">Weight Percent</option>
+          <option value="Lose">Molar Ratio</option>
+        </select>       
       </div>
-      
-      <div class="form-group" id="otherFieldGroupDiv">
-        <div class="row">
-          <div class="col-6">
-            <label for="otherField1">Group: Heres One!</label>
-            <input type="text" class="form-control w-100" id="otherField1">
-          </div>
-          <div class="col-6">
-            <label for="otherField2">Group: Another One!</label>
-            <input type="text" class="form-control w-100" id="otherField2">
-          </div>
-        </div>
-      </div>
-      
-      <div class="form-group">
-        <label for="comments">Comments/Questions</label>
-        <textarea class="form-control" id="comments" rows="3"></textarea>
-      </div>
+    
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     
