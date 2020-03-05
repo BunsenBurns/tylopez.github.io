@@ -1,3 +1,7 @@
+.awesome-icon {
+  font-size: 50px;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -477,13 +481,18 @@ mark,
   height: auto;
 }
 
+.img-thumbnail #fit-motherfucker {
+  overflow: scroll;
+  height:5px;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+  overflow:hidden;
 }
 
 .figure {
