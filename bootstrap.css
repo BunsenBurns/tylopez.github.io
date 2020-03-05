@@ -477,13 +477,25 @@ mark,
   height: auto;
 }
 
+img.cropCenter {
+    left: 50%;
+    margin-left: -100%;
+    margin-top: 25px;
+    position: relative;
+    width: auto !important;
+    height: 160px !important;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid blue;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+  overflow: hidden;
+  text-align: center;
+
 }
 
 .figure {
