@@ -1,54 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Corteva Reactive Chemicals</title>
-  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <link href="bootstrap.css" rel="stylesheet" type="text/css" >
   <link href="style.css" rel="stylesheet" type="text/css" >
   <script src="https://kit.fontawesome.com/84f14bd32c.js" crossorigin="anonymous"></script>
-
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Corteva Reactive Chemicals</title>
 </head>
 <body style="background-color:white;">
-<div class="container">
+<div class="ontainer-fluid">
   <div class="row sticky-top">
     <div class="col-12"> 
       <div class="jumbotron text-center border-white border-bottom mb-0" style="background-image: linear-gradient(#0072ce,#0066b9);">
-      <h1 class="display-2 text-white">Reactive Chemicals</h1>
-      <p class="text-white mb-0">Home</p>
+      <h5 class="display-4 text-white">Reactive Chemicals</h5>
+      <h5 class="text-white mb-0">Home</h5>
       </div>
       <!-- Begin navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-1">
-      <a class="navbar-brand" href="#"><img src="logo--corteva_horcolor_rgb.png"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2 shadow-sm">
+        <a class="navbar-brand" href="#"><img style="height:30px;" src="Corteva_Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Our Team</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#">Capabilities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SME Consultation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Submit Samples</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Incidents</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
-    </ul>
-  </div>
-</nav>
+      <li class="nav-item">
+        <a class="nav-link" href="#">REACHEM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">GAPTEC</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Restricted</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!--End navigation bar-->
     </div>
   </div>
+  <!--Begin second row-->
   <div class="row text-center">
     <div class="mt-0 col-12">
       <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -63,14 +92,49 @@
     <div class="col-6">
       <div class="row">
         <div class="col-12">
-        <h5 class="d-block p-2 bg-light text-dark text-center rounded-pill">Introduction</h5>
+        <h5 class="d-block mb-2 p-3 bg-light text-primary text-center rounded-pill shadow-sm">Introduction</h5>
+        </div>
+      </div>
+      <div class="row mx-2">
+        <div class="col-xl-4 col-lg-6 col-m-12">
+          <figure class="snip1105 red shadow-sm rounded">
+            <img src="img_1.jpg"/>
+              <figcaption>
+                <h22 class="shadow-sm">Our Purpose</span></h22>
+                <h33>The focus of the RC program is to understand the energy that is inherent in our chemicals and processes, and the conditions under which this energy will be released so that we can prevent unplanned chemical reaction events.
+                </h33>
+              </figcaption>            
+            </figure>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-m-12">
+          <figure class="snip1105 red shadow-lg rounded">
+            <img src="img_2.jpg"/>
+              <figcaption>
+                <h22 class="shadow-sm">Our Focus</span></h22>
+                <h33>The focus of the RC program is to understand the energy that is inherent in our chemicals and processes, and the conditions under which this energy will be released so that we can prevent unplanned chemical reaction events.
+                </h33>
+              </figcaption>            
+            </figure>
+        </div>
+        <div class="col-xl-4 col-lg-12 col-m-12">
+          <figure class="snip1105 red shadow-sm rounded">
+            <img src="img_3.jpg"/>
+            <figcaption>
+              <h22 class="shadow-sm">Our Keystone</span></h22>
+              <h33>Find the <a href="http://www.chem1.com/acad/webtext/energetics/CE-1.html#S1B">chemical energy</a>​ and <a href="https://www.osha.gov/SLTC/reactivechemicals/index.html">control the energy.</a>​<br><br>
+        
+        The keystone of the RC program is ownership by all employees.
+              </h33>
+            </figcaption>
+          
+          </figure>
         </div>
       </div>
     </div>  
     <div class="col-6">
       <div class="row">
         <div class="col-12">
-        <h5 class="d-block p-2 bg-light text-dark text-center rounded-pill">Useful Links</h5>
+        <h5 class="d-block mb-2 p-3 bg-light text-primary text-center rounded-pill shadow-sm">Useful Links</h5>
         </div>
     </div>
   </div>
@@ -78,9 +142,7 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
 
