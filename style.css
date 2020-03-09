@@ -13,14 +13,14 @@ figure.snip1105 {
   height: 14.4rem;
 }
 
-figure.snip1105:hover h22 {
-  font-size: 1.5rem;
-  color:blue
+#smallerheight h22 {
+  background-color: #0072ce;
 }
 
+
 figure.snip1105 * {
-  -webkit-transition: all 0.6s ease-in-out;
-  transition: all 0.6s ease-in-out;
+  -webkit-transition: all 1.1s ease-in-out;
+  transition: all 1.1s ease-in-out;
 }
 
 figure.snip1105.bg1 {
@@ -175,11 +175,25 @@ figure.snip1105:hover {
 }
 figure.snip1105:hover h22,
 figure.snip1105.hover h22 {
-  -webkit-transform: translate(0%, -200%);
+  -webkit-transform: translate(0%, 400%);
   opacity: 1;
-  transform:translate(0%, -200%);
+  transform:translate(0%, 400%);
 }
 
+
+#smallerheight:hover h22,
+#smallerheight.hover h22 {
+  -webkit-transform: translate(0%, 0%);
+  opacity: 1;
+  transform:translate(0%, 0%);
+}
+#smallerheight:hover h22 {
+  background-color: #283570;
+  border: 3px white solid;
+  color: black;
+
+  transform:scale(1.03);
+}
 /* Movement of New Black Text Box */
 figure.snip1105:hover h33,
 figure.snip1105.hover h33 {

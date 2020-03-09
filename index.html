@@ -6,6 +6,7 @@
   <link href="bootstrap.css" rel="stylesheet" type="text/css" >
   <link href="style.css" rel="stylesheet" type="text/css" >
   <script src="https://kit.fontawesome.com/84f14bd32c.js" crossorigin="anonymous"></script>
+  <!--Link custom SharePoint search --> <script type="text/javascript" src="search.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Corteva Reactive Chemicals</title>
@@ -68,10 +69,13 @@
         </div>
       </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+            <div class="search-container my-2 my-lg-0">
+
+              <input id="search-input" type="text" placeholder="Search..."                    onclick="this.value=''">
+         
+              <i id="search-submit" class="material-icons">search</i>
+         
+         </div>
         </div>
       </nav>
       <!--End navigation bar-->
@@ -100,8 +104,11 @@
           <figure class="snip1105 bg1 shadow-sm rounded">
               <figcaption>
                 <h22 class="shadow-sm bg-secondary">Our Purpose</span></h22>
-                <h33>The focus of the RC program is to understand the energy that is inherent in our chemicals and processes, and the conditions under which this energy will be released so that we can prevent unplanned chemical reaction events.
+                <h33>The purpose of our Reactive Chemicals<strong>(RC)</strong> Program is to prevent uncontrolled and harmful chemical reactions.</h33>
                 </h33>
+              </figcaption>
+            
+            </figure>
               </figcaption>            
             </figure>
         </div>
@@ -140,18 +147,16 @@
       <div class="col-12 py-0 ">
         <figure class="snip1105 bg4 shadow-sm rounded" id="smallerheight">
           <figcaption>
-            <button type="button" class="btn btn-primary btn-lg btn-block align-middle">Block level button</button>
+            <a href="/teams/consultation.aspx"><h22 class="shadow-sm">Request SME Consultation</span></h22></a>
+           
           </figcaption>
         </figure>
         </div>
         <div class="col-12 py-0 xy-0">
         <figure class="snip1105 bg5 shadow-sm rounded" id="smallerheight">
           <figcaption>
-            <h22 class="shadow-sm bg-primary">Submit a Sample</span></h22>
-            <h33>Find the <a href="http://www.chem1.com/acad/webtext/energetics/CE-1.html#S1B">chemical energy</a>​ and <a href="https://www.osha.gov/SLTC/reactivechemicals/index.html">control the energy.</a>​<br><br>
-      
-      The keystone of the RC program is ownership by all employees.
-            </h33>
+            <a href="/teams/sample.aspx">"<h22 class="shadow-sm">Submit a Sample</span></h22></a>
+           
           </figcaption>
         </figure>
       </div>
