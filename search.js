@@ -12,7 +12,7 @@ $(document).ready(function() {
 
                      // Make sure this location matches your site structure
 
-                     var location = "/_layouts/15/osssearchresults.aspx?u=#k=" + queryString;
+                     var location = "teams/reactivechemicals/_layouts/15/osssearchresults.aspx?u=#k=" + queryString;
 
                      link = location;
 

@@ -5,15 +5,16 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <link href="/teams/reactivechemicals/SiteAssets/bootstrap.css" rel="stylesheet" type="text/css" >
   <link href="/teams/reactivechemicals/SiteAssets/style.css" rel="stylesheet" type="text/css" >
+  <link href="/teams/reactivechemicals/SiteAssets/SharePointHideSide.css" rel="stylesheet" type="text/css" >
   <script src="https://kit.fontawesome.com/84f14bd32c.js" crossorigin="anonymous"></script>
-  <!--Link custom SharePoint search --> <script type="text/javascript" src="search.js"></script>
+  <!--Link custom SharePoint search --> <script type="text/javascript" src="/teams/reactivechemicals/SiteAssets/search.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Corteva Reactive Chemicals</title>
 </head>
 <body style="background-color:white;">
 <div class="ontainer-fluid">
-  <div class="row sticky-top">
+  <div class="row sm-relative md-sticky-top">
     <div class="col-12"> 
       <div class="jumbotron text-center border-white border-bottom mb-0" style="background-image: linear-gradient(#0072ce,#0066b9);">
       <h5 class="display-4 text-white">Reactive Chemicals</h5>
@@ -21,7 +22,7 @@
       </div>
       <!-- Begin navbar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2 shadow-sm">
-        <a class="navbar-brand" href="#"><img style="height:30px;" src="Corteva_Logo.png"></a>
+        <a class="navbar-brand" href="#"><img style="height:30px;" src="/teams/reactivechemicals/SiteAssets/Corteva_Logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -73,7 +74,7 @@
 
               <input id="search-input" type="text" placeholder="Search..."                    onclick="this.value=''">
          
-              <i id="search-submit" class="material-icons">search</i>
+              <i id="search-submit" class="material-icons"><i class="fas fa-search"></i></i>
          
          </div>
         </div>
@@ -145,20 +146,20 @@
     </div>
     <div class="row mx-1">
       <div class="col-12 py-0 ">
-        <figure class="snip1105 bg4 shadow-sm rounded" id="smallerheight">
+        <a href="/teams/consultation.aspx"> <figure class="snip1105 bg4 shadow-sm rounded" id="smallerheight">
           <figcaption>
-            <a href="/teams/consultation.aspx"><h22 class="shadow-sm">Request SME Consultation</span></h22></a>
+          </a><h22 class="shadow-sm">Request SME Consultation</span></h22>
            
           </figcaption>
-        </figure>
+        </figure></a>
         </div>
         <div class="col-12 py-0 xy-0">
-        <figure class="snip1105 bg5 shadow-sm rounded" id="smallerheight">
+          <a href="/teams/sample.aspx"><figure class="snip1105 bg5 shadow-sm rounded" id="smallerheight">
           <figcaption>
-            <a href="/teams/sample.aspx">"<h22 class="shadow-sm">Submit a Sample</span></h22></a>
+           <h22 class="shadow-sm">Submit a Sample</span></h22>
            
           </figcaption>
-        </figure>
+        </figure></a>
       </div>
     </div>
   </div>
