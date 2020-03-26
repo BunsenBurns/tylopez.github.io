@@ -1,0 +1,187 @@
+<div class="wrap" id="right">
+	<nav>
+		<ul class="menu">
+	  <li><a href="/teams/globalexternalmfg/SitePages/Home.aspx">Home</a></li>
+	  <li class="luxbar-item dropdown" id="right"><a href="https://agcompany.sharepoint.com/teams/globalexternalmfg/SitePages/Governance.aspx">Governance Playbook</a>
+        <ul>
+			<li class="luxbar-item">  <a href="/teams/globalexternalmfg/SitePages/GP_1.aspx">Section I: EM Definition, Scope, and Governance Roles</a></li>
+			<li class="luxbar-item">  <a href="/teams/globalexternalmfg/SitePages/GP_2.aspx">Section II: EM Governance Value Chain Work Process</a></li>
+            <li class="luxbar-item">  <a href="/teams/globalexternalmfg/SitePages/GP_3.aspx">Section III: Detailed Chain Work Processes</a></li>
+			<li class="luxbar-item">  <a href="/teams/globalexternalmfg/SitePages/GP_4.aspx">Section IV: EM Playbook Team and Governance Structure</a></li>
+        </ul>
+    </li> 
+
+      <li><a href="/teams/globalexternalmfg/SitePages/Organization.aspx">Our Organization</a></li>
+      <li><a href="/teams/globalexternalmfg/SitePages/Objectives.aspx">Objectives & Priorities</a></li>
+      <li><a href="/teams/globalexternalmfg/SitePages/Knowledge.aspx">Knowledge & Resources</a></li>
+	  <li><a href="/teams/em/SitePages/Home.aspx">Technology Transfer Guidelines</a></li>
+	  <li><a href="/teams/em/SitePages/ExternalSuppliers.aspx">External Supplier Subsites</a></li>
+	  <li><a href="/teams/globalexternalmfg/SitePages/Glossary.aspx">Glossary</a></li>
+		</ul>
+		<div class="clearfix"></div>
+	</nav>
+	</div>
+<style>
+
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	
+	.clearfix {
+		clear: both;
+	}
+	
+	.wrap {
+		width: 100%;
+	}
+	
+	nav {
+		background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+		background-image: linear-gradient(#fff, #ccc);
+		box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.4);
+		position: relative;
+	}
+	
+	.menu li {
+		float: left;
+		position: relative;
+	}
+	
+	.menu li a {
+		color: #444;
+		display: block;
+		font-size: 14px;
+		line-height: 20px;
+		padding: 6px 12px;
+		margin: 8px 8px;
+		vertical-align: middle;
+		text-decoration: none;
+	}
+	
+	.menu li a:hover {
+		background: -webkit-gradient(linear, center top, center bottom, from(#ededed), to(#fff));
+		background-image: linear-gradient(#ededed, #fff);
+		box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+		color: #222;
+	}
+	
+	/* Dropdown styles */
+	
+	.menu ul {
+        position: absolute;
+        margin: 0;
+		left: -9999px;
+		list-style: none;
+		opacity: 0;
+		transition: opacity 1s ease;
+	}
+	
+	.menu ul li {
+		float: none;
+	}
+	
+	.menu ul a {
+		white-space: nowrap;
+	}
+	
+	/* Displays the dropdown on hover and moves back into position */
+	.menu li:hover ul {
+		background: rgba(255,255,255,1);
+		box-shadow: inset 0px 2px 4px rgba(141, 91, 91, 0.4);
+		left: 5px;
+		opacity: 1;
+	}
+	
+	/* Persistant Hover State */
+	.menu li:hover a {
+		background: -webkit-gradient(linear, center top, center bottom, from(#ccc), to(#ededed));
+		background-image: linear-gradient(#ccc, #ededed);
+		box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+		color: #222;
+	}
+	
+	.menu li:hover ul a {
+		background: none;
+		border-radius: 0;
+        box-shadow: none;
+        left: 5px;
+	}
+	
+	.menu li:hover ul li a:hover {
+		background: -webkit-gradient(linear, center top, center bottom, from(#eee), to(#fff));
+		background-image: linear-gradient(#ededed, #fff);
+		box-shadow: inset 0px 0px 4px 2px rgba(0,0,0,0.3);
+    }
+    #left {
+    z-index: 1;
+}
+#right { 
+    z-index: 501;
+}
+
+h10 {
+  font-size: 30px;
+  color: white;
+  font-family: Geneva,Tahoma,Verdana,sans-serif; 
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.header {
+  padding: 40px;
+  text-align: center;
+  background-image: linear-gradient(#0072ce,#0066b9);
+  color: white;
+  font-size: 10px;
+}
+.subheader {
+  padding: 10px;
+  text-align: center;
+  font: Raleway;
+  background-image: linear-gradient(#e6e8ea,#e8eaec);
+  color: #0066b9;
+  font-size: 25px;
+  font-weight: 300;
+  border-radius: 20px;
+}
+hr {
+  border: 0;
+  width: 50%;
+  color: #fff;
+  background-color: #fff;
+  height: 1.0px;
+}
+
+	</style>
+	
+	
+
+<script>
+	// StyleFix 1.0.1 & PrefixFree 1.0.4 / by Lea Verou / MIT license
+(function(){function h(a,b){return[].slice.call((b||document).querySelectorAll(a))}if(window.addEventListener){var b=window.StyleFix={link:function(a){try{if(!/\bstylesheet\b/i.test(a.rel)||!a.sheet.cssRules)return}catch(c){return}var d=a.href||a.getAttribute("data-href"),f=d.replace(/[^\/]+$/,""),g=a.parentNode,e=new XMLHttpRequest;e.open("GET",d);e.onreadystatechange=function(){if(4===e.readyState){var c=e.responseText;if(c&&a.parentNode){c=b.fix(c,!0,a);f&&(c=c.replace(/url\((?:'|")?(.+?)(?:'|")?\)/gi,
+function(a,c){return!/^([a-z]{3,10}:|\/|#)/i.test(c)?'url("'+f+c+'")':a}),c=c.replace(RegExp("\\b(behavior:\\s*?url\\('?\"?)"+f,"gi"),"$1"));var d=document.createElement("style");d.textContent=c;d.media=a.media;d.disabled=a.disabled;d.setAttribute("data-href",a.getAttribute("href"));g.insertBefore(d,a);g.removeChild(a)}}};e.send(null);a.setAttribute("data-inprogress","")},styleElement:function(a){var c=a.disabled;a.textContent=b.fix(a.textContent,!0,a);a.disabled=c},styleAttribute:function(a){var c=
+a.getAttribute("style"),c=b.fix(c,!1,a);a.setAttribute("style",c)},process:function(){h('link[rel~="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);h("style").forEach(StyleFix.styleElement);h("[style]").forEach(StyleFix.styleAttribute)},register:function(a,c){(b.fixers=b.fixers||[]).splice(void 0===c?b.fixers.length:c,0,a)},fix:function(a,c){for(var d=0;d<b.fixers.length;d++)a=b.fixers[d](a,c)||a;return a},camelCase:function(a){return a.replace(/-([a-z])/g,function(a,b){return b.toUpperCase()}).replace("-",
+"")},deCamelCase:function(a){return a.replace(/[A-Z]/g,function(a){return"-"+a.toLowerCase()})}};(function(){setTimeout(function(){h('link[rel~="stylesheet"]').forEach(StyleFix.link)},10);document.addEventListener("DOMContentLoaded",StyleFix.process,!1)})()}})();
+(function(h){if(window.StyleFix&&window.getComputedStyle){var b=window.PrefixFree={prefixCSS:function(a,c){function d(c,d,f,g){c=b[c];c.length&&(c=RegExp(d+"("+c.join("|")+")"+f,"gi"),a=a.replace(c,g))}var f=b.prefix;d("functions","(\\s|:|,)","\\s*\\(","$1"+f+"$2(");d("keywords","(\\s|:)","(\\s|;|\\}|$)","$1"+f+"$2$3");d("properties","(^|\\{|\\s|;)","\\s*:","$1"+f+"$2:");if(b.properties.length){var g=RegExp("\\b("+b.properties.join("|")+")(?!:)","gi");d("valueProperties","\\b",":(.+?);",function(a){return a.replace(g,
+f+"$1")})}c&&(d("selectors","","\\b",b.prefixSelector),d("atrules","@","\\b","@"+f+"$1"));return a=a.replace(RegExp("-"+f,"g"),"-")},prefixSelector:function(a){return a.replace(/^:{1,2}/,function(a){return a+b.prefix})},prefixProperty:function(a,c){var d=b.prefix+a;return c?StyleFix.camelCase(d):d}};(function(){var a={},c=[],d=getComputedStyle(document.documentElement,null),f=document.createElement("div").style,g=function(b){if("-"===b.charAt(0)){c.push(b);var b=b.split("-"),d=b[1];for(a[d]=++a[d]||
+1;3<b.length;)b.pop(),d=b.join("-"),StyleFix.camelCase(d)in f&&-1===c.indexOf(d)&&c.push(d)}};if(0<d.length)for(var e=0;e<d.length;e++)g(d[e]);else for(var i in d)g(StyleFix.deCamelCase(i));var e=0,j,h;for(h in a)d=a[h],e<d&&(j=h,e=d);b.prefix="-"+j+"-";b.Prefix=StyleFix.camelCase(b.prefix);b.properties=[];for(e=0;e<c.length;e++)i=c[e],0===i.indexOf(b.prefix)&&(j=i.slice(b.prefix.length),StyleFix.camelCase(j)in f||b.properties.push(j));"Ms"==b.Prefix&&!("transform"in f)&&!("MsTransform"in f)&&"msTransform"in
+f&&b.properties.push("transform","transform-origin");b.properties.sort()})();(function(){function a(a,b){f[b]="";f[b]=a;return!!f[b]}var c={"linear-gradient":{property:"backgroundImage",params:"red, teal"},calc:{property:"width",params:"1px + 5%"},element:{property:"backgroundImage",params:"#foo"}};c["repeating-linear-gradient"]=c["repeating-radial-gradient"]=c["radial-gradient"]=c["linear-gradient"];var d={initial:"color","zoom-in":"cursor","zoom-out":"cursor",box:"display",flexbox:"display","inline-flexbox":"display"};
+b.functions=[];b.keywords=[];var f=document.createElement("div").style,g;for(g in c){var e=c[g],i=e.property,e=g+"("+e.params+")";!a(e,i)&&a(b.prefix+e,i)&&b.functions.push(g)}for(var h in d)i=d[h],!a(h,i)&&a(b.prefix+h,i)&&b.keywords.push(h)})();(function(){function a(a){f.textContent=a+"{}";return!!f.sheet.cssRules.length}var c={":read-only":null,":read-write":null,":any-link":null,"::selection":null},d={keyframes:"name",viewport:null,document:'regexp(".")'};b.selectors=[];b.atrules=[];var f=h.appendChild(document.createElement("style")),
+g;for(g in c){var e=g+(c[g]?"("+c[g]+")":"");!a(e)&&a(b.prefixSelector(e))&&b.selectors.push(g)}for(var i in d)e=i+" "+(d[i]||""),!a("@"+e)&&a("@"+b.prefix+e)&&b.atrules.push(i);h.removeChild(f)})();b.valueProperties=["transition","transition-property"];h.className+=" "+b.prefix;StyleFix.register(b.prefixCSS)}})(document.documentElement);
+</script>
