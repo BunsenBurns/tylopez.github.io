@@ -288,7 +288,7 @@ figure.snip1105:hover {
 figure.snip1105:hover h22,
 figure.snip1105.hover h22 {
   -webkit-transform: translate(0%, 400%);
-  opacity: 1;
+  opacity: 0;
   transform:translate(0%, 400%);
 }
 
@@ -303,7 +303,7 @@ figure.snip1105.hover h22 {
   background-color: #283570;
   border: 3px white solid;
   color: black;
-
+  opacity: 1;
   transform:scale(1.03);
 }
 /* Movement of New Black Text Box */
@@ -318,4 +318,22 @@ figure.snip1105:hover:before,
 figure.snip1105.hover:before {
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

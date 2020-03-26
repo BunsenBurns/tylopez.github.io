@@ -1,0 +1,56 @@
+
+
+
+
+/*–Hide Quick Launch –*/
+#s4-leftpanel{
+    display:none !important;
+    }
+    .s4-ca{
+    margin-left:0px !important;
+    }
+    
+    /*–Hide Top bar and Ribbon –*/
+    .ms-topnav img, .ms-tableRow, .ms-topnavselected img
+    {
+    display: none;
+    }
+          .s4-pr s4-ribbonrowhidetitle, #s4-titlerow, #ms-cui-ribbonTopBars,  #s4-pr s4-notdlg  s4-titlerowhidetitle {display:none !important;}
+    
+        .s4-ca{margin-left:0px !important; margin-right:0px !important;}
+        .ms-breadcrumb-top {
+          display: none;
+      }
+    
+      .s4-tn li.static > a{ 
+        display: none !important; 
+      } 
+      #ctl00_onetidHeadbnnr2  {display:none;} 
+      /* Resizes to 0 the upper margin of the main area */ 
+      .ms-pagetitleareaframe table { background: none; }
+      /* Hides title and breadcrumb bar */  
+      .s4-title { display:none !important; } 
+      /* Hides the top navigation links */     
+      .s4-tn { display:none !important; } 
+      #s4-titlerow { display:none }
+      /* Hides the search box */  
+      #SRSB { display:none !important; } 
+      #DeltaPlaceHolderSearchArea {  
+             display: none;  
+         }  
+      /* Resizes to 0 the upper margin of the main area */ 
+      .ms-pagetitleareaframe table { background: none; }
+              /* On site page hide left navigation menu */  
+          
+         #sideNavBox {  
+             display: none;  
+         }  
+         /* adjust position of content on site page */  
+          
+         #contentBox {  
+             margin-left: 20px!important;  
+         }  
+      
+      #pageStatusBar{
+         display:none!important;
+      }
